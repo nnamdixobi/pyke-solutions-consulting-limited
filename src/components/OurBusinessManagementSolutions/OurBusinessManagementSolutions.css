@@ -1,0 +1,87 @@
+.our-business-management-solutions-container {
+  padding: 40px;
+  background-color: aliceblue;
+}
+
+.our-business-management-solutions-content {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.our-business-management-solutions-content h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid navy;
+  padding-bottom: 10px;
+}
+
+.our-business-management-solutions-content p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.our-business-management-solutions-content ul {
+  padding-left: 40px; /* Ensure there is enough padding to show the bullet points */
+  list-style-type: disc; /* Use disc style for bullet points */
+  margin-bottom: 20px;
+}
+
+.our-business-management-solutions-content ul li {
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: #555;
+}
+
+.our-business-management-solutions-content ul ul {
+  list-style-type: circle; /* Use circle style for nested bullet points */
+}
+
+.our-business-management-solutions-content ul ul li {
+  margin-bottom: 10px;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.our-business-management-solutions-content h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: navy;
+}
+
+.our-business-management-solutions-content h4 {
+  font-size: 1.4em;
+  margin-top: 20px;
+  color: #333;
+}
+
+.read-more {
+  color: #0073e6;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.read-more:hover {
+  color: #005bb5;
+}
+
+.hidden-content {
+  display: none;
+  margin-top: 10px;
+  padding: 15px 20px;
+  background-color: #f1f1f1;
+  border-left: 4px solid #0073e6;
+  border-radius: 4px;
+}
+
+.hidden-content.show {
+  display: block;
+}

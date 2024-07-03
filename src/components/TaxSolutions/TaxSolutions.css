@@ -1,0 +1,41 @@
+.tax-solutions-container {
+    padding: 20px;
+  }
+  
+  .tax-solutions-content {
+    padding: 20px;
+  }
+  
+  .tax-solutions-content h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 2px solid navy;
+    padding-bottom: 5px;
+  }
+  
+  .tax-solutions-content p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .tax-solutions-content ul {
+    padding-left: 20px; /* Ensure there is enough padding to show the bullet points */
+    list-style-type: disc; /* Use disc style for bullet points */
+    margin-bottom: 20px;
+  }
+  
+  .tax-solutions-content ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .tax-solutions-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: navy;
+  }
+  

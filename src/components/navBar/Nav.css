@@ -1,0 +1,116 @@
+/* Navigation Styles */
+nav {
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(15px);
+  border-bottom: 3.5px solid navy;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo img {
+  height: 40px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  background: transparent;
+  padding: 0.9rem 1.2rem;
+  border-radius: 25px;
+  color: navy;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: rgba(0, 0, 128, 0.1); /* Light navy background color */
+  transform: translateY(-3px);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  z-index: 3; /* Ensure the hamburger is above the nav-links */
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger.open .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 60%;
+    height: 100vh;
+    background: navy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    transition: right 0.3s ease-in-out;
+    z-index: 2; /* Ensure the nav-links are below the hamburger */
+  }
+
+  .nav-links a {
+    font-size: 1.3rem;
+    color: white;
+    padding: 1rem 1.5rem;
+  }
+
+  .nav-links a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+
+  .nav-links.open {
+    right: 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}

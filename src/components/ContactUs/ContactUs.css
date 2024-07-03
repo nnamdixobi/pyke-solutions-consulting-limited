@@ -1,0 +1,56 @@
+.contact-us-container {
+    padding: 40px;
+    background-color: aliceblue;
+  }
+  
+  .contact-us-content {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us-content h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid navy;
+    padding-bottom: 10px;
+  }
+  
+  .contact-us-content p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .contact-details h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: navy;
+  }
+  
+  .contact-details ul {
+    padding-left: 40px; /* Ensure there is enough padding to show the bullet points */
+    list-style-type: disc; /* Use disc style for bullet points */
+    margin-bottom: 20px;
+  }
+  
+  .contact-details li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .contact-details a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
