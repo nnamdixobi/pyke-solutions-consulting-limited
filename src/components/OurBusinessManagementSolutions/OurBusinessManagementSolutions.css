@@ -28,8 +28,8 @@
 }
 
 .our-business-management-solutions-content ul {
-  padding-left: 40px; /* Ensure there is enough padding to show the bullet points */
-  list-style-type: disc; /* Use disc style for bullet points */
+  padding-left: 40px;
+  list-style-type: disc;
   margin-bottom: 20px;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .our-business-management-solutions-content ul ul {
-  list-style-type: circle; /* Use circle style for nested bullet points */
+  list-style-type: circle;
 }
 
 .our-business-management-solutions-content ul ul li {
@@ -55,10 +55,19 @@
   color: navy;
 }
 
-.our-business-management-solutions-content h4 {
-  font-size: 1.4em;
-  margin-top: 20px;
-  color: #333;
+.solution-image {
+  width: 50%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+ 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.solution-image-container {
+  display: grid;
+  place-items: center;
+  margin-bottom: 15px; /* Adjust as needed */
 }
 
 .read-more {

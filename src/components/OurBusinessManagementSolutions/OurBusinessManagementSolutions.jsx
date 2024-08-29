@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import './OurBusinessManagementSolutions.css';
 import AccountingSolutions from '../AccountingSolutions/AccountingSolutions';
 import TaxSolutions from '../TaxSolutions/TaxSolutions';
+import sageX3 from "./SageX3.png"
+import cloud from "./cloud.png"
+import sage200 from "./sage200.png"
+import sageOne from "./SageOne.png"
+import sageHR from "./SageHR.jpg"
+import Quickbooks from "./Quickbooks.png"
 
 const OurBusinessManagementSolutions = () => {
   const [expandedSections, setExpandedSections] = useState({});
@@ -25,6 +31,11 @@ const OurBusinessManagementSolutions = () => {
         <ul>
           <li>
             <h3>Sage X3</h3>
+
+            <div className="solution-image-container">
+            <img src={sageX3} alt="Sage X3" className="solution-image" />
+            </div>
+
             <p>Sage Enterprise Management, also known as Sage X3, is an ERP software suite that includes integrated functionality for financial management, sales, customer service, distribution, inventory, and manufacturing, and business intelligence. It is web-based, browser agnostic, and responsive on mobile devices. At the same time, it is also available to be deployed on-premises and as a service in the AWS cloud managed by Sage or a partner-provisioned cloud. The software is configurable to company requirements, user roles, and preferences. Visual processes, automated workflows and alerts, document management, and communication tools are features available in the system. It is designed to support global organizations with multiple companies, sites, languages, currencies, and legislation. Customizable add-on tools extend software capabilities, and it interfaces with third-party software including CRM, WMS, and e-commerce.</p>
             <span className="read-more" onClick={() => toggleReadMore('sage-x3')}>Read More</span>
             {expandedSections['sage-x3'] && (
@@ -44,6 +55,11 @@ const OurBusinessManagementSolutions = () => {
           </li>
           <li>
             <h3>Sage 300 (Cloud Functionality)</h3>
+
+            <div className="solution-image-container">
+            <img src={cloud} alt="Sage 300" className="solution-image" />
+            </div>
+
             <p>Sage 300 ERP is the most complete financial suite by Sage for mid-sized and smaller businesses looking to connect all operations enterprise-wide. Sage 300 ERP solutions (formerly Sage ERP Accpac) deliver the best of both worlds—providing you the freedom to choose between on-premises and online deployment options. Both will help you interconnect processes from each functional area of your business securely and in real time, bringing front-office and back-office operations into alignment.</p>
             <span className="read-more" onClick={() => toggleReadMore('sage-300')}>Read More</span>
             {expandedSections['sage-300'] && (
@@ -69,6 +85,13 @@ const OurBusinessManagementSolutions = () => {
           </li>
           <li>
             <h3>Sage 200 (Evolution Premium)</h3>
+
+            
+            <div className="solution-image-container">
+              <img src={sage200} alt="Sage 200" className="solution-image" />
+              </div>
+
+
             <p>Sage 200 Evolution delivers an entire business management solution. It’s the new way to work</p>
             <span className="read-more" onClick={() => toggleReadMore('sage-200')}>Read More</span>
             {expandedSections['sage-200'] && (
@@ -92,6 +115,11 @@ const OurBusinessManagementSolutions = () => {
           </li>
           <li>
             <h3>SageOne Accounting</h3>
+
+            <div className="solution-image-container">
+              <img src={sageOne} alt="Sage One Accounting" className="solution-image" />
+              </div>
+
             <p>Offered by Sage Pastel for SMEs of diverse industries including retail/trading businesses. It features invoicing, inventory management, multi-currencies, and reporting.</p>
             <span className="read-more" onClick={() => toggleReadMore('sageone-accounting')}>Read More</span>
             {expandedSections['sageone-accounting'] && (
@@ -102,6 +130,11 @@ const OurBusinessManagementSolutions = () => {
           </li>
           <li>
             <h3>Human Resources and Payroll Solutions</h3>
+            
+            <div className="solution-image-container">
+              <img src={sageHR} alt="Human Resources and Payroll Solutions" className="solution-image" />
+              </div>
+
             <ul>
               <li>Sage X3 People</li>
               <li>Sage 300 People</li>
@@ -111,6 +144,11 @@ const OurBusinessManagementSolutions = () => {
           </li>
           <li>
             <h3>QuickBooks Accounting Solutions</h3>
+
+            <div className="solution-image-container">
+              <img src={Quickbooks} alt="Quickbooks" className="solution-image" />
+              </div>
+
             <p>QuickBooks products are geared mainly toward small and medium-sized businesses and offer on-premises accounting applications as well as cloud-based versions that accept business payments, manage and pay bills, and payroll functions.</p>
             <span className="read-more" onClick={() => toggleReadMore('quickbooks-solutions')}>Read More</span>
             {expandedSections['quickbooks-solutions'] && (
