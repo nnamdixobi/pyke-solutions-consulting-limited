@@ -86,6 +86,8 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    padding-top: 4rem; /* Add padding at the top */
+    padding-bottom: 4rem; /* Add padding at the bottom */
     transition: right 0.3s ease-in-out;
     z-index: 2; /* Ensure the nav-links are below the hamburger */
   }
@@ -109,6 +111,7 @@ nav {
     display: flex;
   }
 }
+
 
 /* Smooth Scrolling */
 html {
