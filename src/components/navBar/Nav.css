@@ -74,6 +74,12 @@ nav {
 }
 
 @media (max-width: 768px) {
+
+  .logo img {
+    height: 30px; /* Adjust the height for mobile */
+    object-fit: contain; /* Ensure the image is fully contained within the element */
+  }
+  
   .nav-links {
     position: fixed;
     top: 0;
