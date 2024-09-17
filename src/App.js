@@ -9,6 +9,7 @@ import WhyUs from './components/WhyUs/WhyUs.jsx';
 import Training from './components/Training/Training.jsx';
 import ContactUs from './components/ContactUs/ContactUs.jsx';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 // Define a functional component called 'App'
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
     <WhyUs />
     <ContactUs />
     <PrivacyPolicy />
+    <Footer />
     
     
 

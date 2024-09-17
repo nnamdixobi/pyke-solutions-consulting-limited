@@ -114,7 +114,29 @@ const WhatWeDo = () => {
               </div>
             )}
           </li>
+
+          
+          {/* Other Services */}
+          <li>
+            <h3>Other Services</h3>
+            <p>We provide a wide range of additional services to support your business:</p>
+            <ul>
+              <li>Software Implementation</li>
+              <li>Cloud Computing</li>
+              <li>IT Networking/Engineering/IT Supplies</li>
+              <li>Designing, Assessing, and Strengthening Internal Control System</li>
+              <li>Fixed Asset Audit and Tagging</li>
+            </ul>
+          </li>
+        
+
+
+
         </ul>
+
+
+
+
       </div>
     </div>
   );

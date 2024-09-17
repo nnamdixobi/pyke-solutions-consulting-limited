@@ -8,6 +8,9 @@ import sage200 from "./sage200.png"
 import sageOne from "./SageOne.png"
 import sageHR from "./SageHR.jpg"
 import Quickbooks from "./Quickbooks.png"
+import zoho from "./zoho.png";
+import busy from "./busy.jpg";
+import microsoft from "./microsoft.png";
 
 const OurBusinessManagementSolutions = () => {
   const [expandedSections, setExpandedSections] = useState({});
@@ -190,6 +193,70 @@ const OurBusinessManagementSolutions = () => {
               </div>
             )}
           </li>
+
+          {/* New Solutions */}
+  <li>
+    <h3>Zoho Business Solutions</h3>
+
+    <div className="solution-image-container">
+      <img src={zoho} alt="Zoho Business Solutions" className="solution-image" />
+    </div>
+
+    <p>Zoho offers a comprehensive suite of cloud-based business software, designed to manage and automate various business functions such as sales, marketing, customer support, accounting, human resources, and collaboration tools. With products like Zoho CRM, Zoho Books, Zoho People, and Zoho Projects, businesses can enhance productivity and streamline their operations.</p>
+    <span className="read-more" onClick={() => toggleReadMore('zoho')}>Read More</span>
+    {expandedSections['zoho'] && (
+      <div className="hidden-content show">
+        <ul>
+          <li>Zoho CRM for Sales</li>
+          <li>Zoho Books for Accounting</li>
+          <li>Zoho People for HR</li>
+          <li>Zoho Projects for Project Management</li>
+          <li>Zoho Analytics for Business Intelligence</li>
+        </ul>
+      </div>
+    )}
+  </li>
+  <li>
+    <h3>Busy Accounting Software</h3>
+
+    <div className="solution-image-container">
+      <img src={busy} alt="Busy Accounting Software" className="solution-image" />
+    </div>
+
+    <p>Busy is an integrated business accounting software for Micro, Small & Medium Enterprises (MSMEs). It is known for its invoicing, financial accounting, inventory management, and multi-currency transactions. Busy is widely used in sectors like manufacturing, retail, and distribution for managing accounts efficiently.</p>
+    <span className="read-more" onClick={() => toggleReadMore('busy')}>Read More</span>
+    {expandedSections['busy'] && (
+      <div className="hidden-content show">
+        <ul>
+          <li>Financial Accounting and Bookkeeping</li>
+          <li>Inventory Management</li>
+          <li>GST and VAT Compliant</li>
+          <li>Payroll Management</li>
+          <li>Multi-Currency Transactions</li>
+        </ul>
+      </div>
+    )}
+  </li>
+  <li>
+    <h3>Microsoft Business Solutions</h3>
+
+    <div className="solution-image-container">
+      <img src={microsoft} alt="Microsoft Business Solutions" className="solution-image" />
+    </div>
+
+    <p>Microsoft offers robust business solutions that cater to the needs of enterprises and small businesses. These include Microsoft Dynamics 365 for managing finances, sales, customer service, and operations, as well as Microsoft Azure, a cloud computing platform that enables organizations to build, manage, and deploy applications.</p>
+    <span className="read-more" onClick={() => toggleReadMore('microsoft')}>Read More</span>
+    {expandedSections['microsoft'] && (
+      <div className="hidden-content show">
+        <ul>
+          <li>Microsoft Dynamics 365 for CRM and ERP</li>
+          <li>Microsoft Azure for Cloud Computing</li>
+          <li>Microsoft Power BI for Data Analytics</li>
+          <li>Microsoft 365 for Collaboration and Productivity</li>
+        </ul>
+      </div>
+    )}
+  </li>
         </ul>
         
         <AccountingSolutions />

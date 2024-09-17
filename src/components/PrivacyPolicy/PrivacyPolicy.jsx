@@ -1,5 +1,7 @@
 import React from 'react';
 import './PrivacyPolicy.css';
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaGoogle } from 'react-icons/fa';
+import { BsTwitterX } from "react-icons/bs";
 
 const PrivacyPolicy = () => {
   return (
@@ -39,7 +41,26 @@ const PrivacyPolicy = () => {
         <p>Any changes to our Privacy Policy will be placed here and will supersede this version of our Policy. We will take reasonable steps to draw your attention to any changes in our Policy. However, to be on the safe side, we suggest that you read this document each time you use the website to ensure that it still meets with your approval.</p>
 
         <h3>Contacting us</h3>
-        <p>If you have any questions about our Privacy Policy, or if you want to know what information we have collected about you, please email us at <a href="mailto:info@pykesolutions.com">info@pykesolutions.com</a>.</p>
+        <p>If you have any questions about our Privacy Policy, or if you want to know what information we have collected about you, please email us at <a href="mailto:info@pykesolutions.org">info@pykesolutions.org</a>.</p>
+
+        {/* Social Media Links */}
+        <div className="social-links">
+          <a href="https://www.google.com/search?q=pyke+solutions+consulting+limited&oq=Pyke&gs_lcrp=EgZjaHJvbWUqDggDEEUYJxg7GIAEGIoFMgYIABBFGDwyCAgBEEUYJxg7MgYIAhBFGDsyDggDEEUYJxg7GIAEGIoFMgYIBBBFGDkyBggFEEUYOzIGCAYQRRg8MgYIBxBFGDzSAQg0OTE2ajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8" target="_blank" rel="noopener noreferrer" aria-label="Google My Business">
+            <FaGoogle />
+          </a>
+          <a href="https://www.linkedin.com/company/pyke-solutions-consulting-limited/posts/?feedView=all" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <FaLinkedinIn />
+          </a>
+          <a href="https://www.facebook.com/pykesolutions" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <FaFacebookF />
+          </a>
+          <a href="https://x.com/i/flow/login?redirect_after_login=%2Fpykesolutions1" target="_blank" rel="noopener noreferrer" aria-label="Twitter (X)">
+          <BsTwitterX />
+          </a>
+          <a href="https://www.instagram.com/pykesolutionsconsultinglimited/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <FaInstagram />
+          </a>
+        </div>
       </div>
     </div>
   );

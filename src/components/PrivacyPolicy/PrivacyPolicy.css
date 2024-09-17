@@ -41,4 +41,22 @@
   .privacy-policy-content a:hover {
     text-decoration: underline;
   }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+    margin-top: 30px;
+  }
+  
+  .social-links a {
+    font-size: 2rem; /* Adjust the size as needed */
+    color: navy; /* Adjust the color as needed */
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #2980b9; /* Adjust the hover color as needed */
+  }
+  
   
