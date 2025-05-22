@@ -12,7 +12,7 @@ const ContactUs = () => {
         <div className="contact-details">
           <h3><b>Office Address</b></h3>
           <ul>
-            <li><b>Lagos Office</b>: Suite 15, Veteran Plaza, 433 Herbert Macaulay Way, Yaba, Lagos</li>
+            <li><b>Lagos Office</b>: 7 Muri Okunola Street, Berger Paint Plaza, Victoria Island, Lagos</li>
             <li><b>Port Harcourt Office</b>: #129-132 Trans Amadi Industrial Layout (Old Michelin Compound), Port Harcourt, Rivers State.</li>
             <li><b>Warri Office</b>: 40 Airport Road, By Edjeba Junction, Warri, Delta State.</li>
           </ul>
@@ -23,7 +23,7 @@ const ContactUs = () => {
           <ul>
             <li>Tel: <a href="tel:08166483802">08166483802</a>, <a href="tel:08175575477">08175575477</a></li>
             <li>Email: <a href="mailto:info@pykesolutions.org">info@pykesolutions.org</a></li>
-            <li>Website: <a href="http://www.pykesolutions.org" target="_blank" rel="noopener noreferrer">www.pykesolutions.org</a></li>
+            <li>Website: <a href="https://pykesolutions.org/" target="_blank" rel="noopener noreferrer">pykesolutions.org</a></li>
           </ul>
         </div>
       </div>
